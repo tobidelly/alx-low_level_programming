@@ -25,15 +25,15 @@ int main(void)
 
 	if (l_d > 5)
 	{
-	printf("and is greater than 5\n", l_d);
+	printf("and is greater than 5\n");
 	}
 	else if (l_d == 0)
 	{
-	printf("and is 0\n", l_d);
+	printf("and is 0\n");
 	}
 	else
 	{
-	printf("and is less than 6 and not 0\n", l_d);
+	printf("and is less than 6 and not 0\n");
 	}
 
 	return (0);

@@ -15,12 +15,12 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-	putchar(i);
+	putchar('0' + i);
 	}
 
 	for (i = 0; i < 6; i++)
 	{
-	putchar(i);
+	putchar('0' + i);
 	}
 
 	putchar('\n');

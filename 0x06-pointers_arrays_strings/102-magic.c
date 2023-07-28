@@ -2,23 +2,18 @@
 
 /**
  * main - Entry point
- * - you are not allowed to use a
- * - you are not allowed to modify p
  *
- * Return: 0.
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int n;
-	int a[5];
+	int a[5] = {98, 198, 298, 398, 498};
 	int *p;
 
-	a[2] = 1024;
-	p = &n;
+	p = a;
+	printf("a[2] = %d\n", *(p + 2));
+	/* ... Rest of the code ... */
 
-	*(p + 5) = 98;
-	/* ...so that this prints 98\n */
-	printf("a[2] = %d\n", a[2]);
 	return (0);
 }

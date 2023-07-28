@@ -8,12 +8,14 @@
 
 int main(void)
 {
-	int a[5] = {98, 198, 298, 398, 498};
+	int n;
+	int a[5];
 	int *p;
 
-	p = a;
-	printf("a[2] = %d\n", *(p + 2));
-	/* ... Rest of the code ... */
-
+	a[2] = 1024;
+	p = &n;
+	*(p + 5) = 98;
+	/* ...so that this prints 98\n */
+	printf("a[2] = %d\n", a[2]);
 	return (0);
 }

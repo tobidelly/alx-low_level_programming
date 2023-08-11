@@ -29,18 +29,16 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 
 	while (i < lenx)
-		{
-		s[i] = s1[i];
-		i++;
-		}
+	{
+	s[i] = s1[i];
+	i++;
+	}
 
 	while (n < leny && i < (lenx + n))
 		s[i++] = s2[j++];
 
 	while (n >= leny && i < (lenx + leny))
 		s[i++] = s2[j++];
-
-		s[i] = '\0';
-
+	s[i] = '\0';
 	return (s);
 }

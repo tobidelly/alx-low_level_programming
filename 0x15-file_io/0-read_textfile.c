@@ -3,8 +3,8 @@
 
 /**
  * read_textfile- Read text file and print.
- * @filename: text file
- * @letters: number
+ * @filename: name of text file
+ * @letters: number represented in code
  * Return: number of bytes
  */
 
